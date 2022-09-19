@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link id="mode" rel="stylesheet" href="/styles/SiteWideStyles/LightMode.css">
+    <link rel="stylesheet" href="./styles/loginStyle.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header>Register</header>
+    <form method="get" action="login.html">
+        <div class="formbody">
+            <label for="uname">Email:</label>
+            <input type="text" id="uname" name="uname"><br>
+            <label for="vuname">Validate Email:</label>
+            <input type="text" id="vuname" name="uname"><br>
+            <text id="validemail" style="color:red"></text>
+            <label for="pword">Password:</label>
+            <input type="password" id="pword" name="pword"><br>
+            <label for="vpword">Validate Password:</label>
+            <input type="password" id="vpword" name="pword"><br>
+            <text id="validpw" style="color:red"></text>
+            <button id="submit">Login</button>
+        </div>
+    </form>
+    <button id="darkmode">Darkmode</button>
+</body>
+<script src="./scripts/validation.js"></script>
+<script src="./scripts/darkmode.js"></script>
+</html>
